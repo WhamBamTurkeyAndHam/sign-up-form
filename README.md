@@ -1,1 +1,3 @@
+This was a good test of just using html and css to create something I see almost every day. So while it was interesting to see and understand the behind the scenes of a form, it was cut short because we can't use javascript at this point. So hopefully (like a lot of the projects so far), I'd be interested to see how I can change this or make this better, once I have learnt the skills.
+
 # sign-up-form
