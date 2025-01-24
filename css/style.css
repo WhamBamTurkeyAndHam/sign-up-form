@@ -100,6 +100,29 @@ input:focus-visible, a:focus-visible {
   outline-offset: 0.25rem;
 }
 
+/* Required Tag */
+input + span {
+  position: relative;
+}
+
+input:required + span::after {
+  font-size: 0.7rem;
+  position: absolute;
+  content: "Required";
+  color: white;
+  padding: 5px 10px;
+  top: -90px;
+  right: 0px;
+}
+
+input:valid + span::after {
+  background-color: rgb(var(--secondary-color));
+}
+
+input:invalid + span::after {
+  background-color: red;
+}
+
 /* Bottom Form */
 .bottom-login {
   display: flex;
